@@ -2,14 +2,14 @@
 
 ## 1. Установка Ansible
 
-Я пользуюсь ОС Windows, поэтому мне понадобилось установить WSL 2, чтобы скачать Ansible.
+Я пользуюсь ОС Windows, поэтому мне понадобилось установить WSL 2, чтобы скачать Ansible
 
 Это можно сделать с помощью команды:
 
 ```bash
 wsl --install -d Ubuntu-20.04
 ```
-Также потребовалость установить дистрибутив по умолчанию, которым является только что скаченная Ubuntu 20.04 LTS
+Также потребовалось установить дистрибутив по умолчанию, которым является только что скаченная Ubuntu 20.04 LTS
 
 ```bash
 wsl --set-default Ubuntu-20.04
@@ -19,7 +19,7 @@ wsl --set-default Ubuntu-20.04
 
 ![image](https://github.com/user-attachments/assets/68ca1197-e3ef-4585-8f9f-1b43e9107ef4)
 
-После этих шагов установил сам Ansible, используя команды для Ubuntu:
+После этих шагов установим сам Ansible, используя команды для Ubuntu:
 
 ```bash
 sudo apt update
@@ -42,15 +42,17 @@ https://developer.hashicorp.com/vagrant/install
 
 ![image](https://github.com/user-attachments/assets/7ed8f625-ae18-4185-a989-be466825de00)
 
-Перед дальнейшей преднастройкой Vagrant, нужно иметь у себя на компьютере VirtualBox версии именно 7.0 или ниже, так как на самой новой версии он не работает
+Перед дальнейшей преднастройкой Vagrant, нужно иметь у себя на компьютере VirtualBox версии именно 7.0 или ниже, так как на самой новой версии он не работает!
 
 Не лишним будет установка VirtualBox Extension Pack для установленной версии VirtualBox
 
 Вернемся к Vagrant, создадим новую папку для нашего проекта, у меня она будет находится по данному пути:
 
+```
 C:\Itmo\deusops-itmo
+```
 
-Теперь в этой же дирректории проинициализируем Vagrant командой:
+Теперь в этой же директории проинициализируем Vagrant командой:
 
 ```bash
 vagrant init
@@ -64,7 +66,9 @@ vagrant init
 
 ![image](https://github.com/user-attachments/assets/f20e1910-45d6-41a8-a4a1-c10ea674486c)
 
-## 3. После всех этих действий, мы наконец можем поднять все наши сервера командой:
+## 3. Поднятие серверов
+
+После всех этих действий, мы наконец можем поднять все наши сервера командой:
 
 ```bash
 vagrant up
@@ -84,13 +88,13 @@ vagrant up
 
 ## 4. Написание inventory-файла для развернутых хостов
 
-Создадим в домашней дирректории inventory-файл:
+Создадим в домашней директории inventory-файл:
 
 ![image](https://github.com/user-attachments/assets/5d63a7b7-4f73-471e-9886-540f3c89fcae)
 
 ## 5. Написание playbook для установки Docker
 
-Создадим в домашней дирректории новый playbook:
+Создадим в домашней директории новый playbook:
 
 ![image](https://github.com/user-attachments/assets/a902bebd-0f6b-4221-b21b-e9b40fdbd150)
 ![image](https://github.com/user-attachments/assets/936a1550-2543-418c-a301-c591d73f676b)
@@ -105,7 +109,7 @@ vagrant up
 ```bash
 lynx http://localhost:8000
 ```
-Примим Coockie файлы:
+Примем Cookie-файлы:
 
 ![image](https://github.com/user-attachments/assets/2f71546c-c372-4bf6-b14e-bf1e693d57b2)
 ![image](https://github.com/user-attachments/assets/66066b90-a599-40ec-b719-c05159ab50cb)
