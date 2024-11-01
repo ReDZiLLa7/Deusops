@@ -109,11 +109,7 @@ vagrant up
 ```bash
 lynx http://localhost:8000
 ```
-Примем Cookie-файлы:
-
-![image](https://github.com/user-attachments/assets/2f71546c-c372-4bf6-b14e-bf1e693d57b2)
-![image](https://github.com/user-attachments/assets/66066b90-a599-40ec-b719-c05159ab50cb)
-![image](https://github.com/user-attachments/assets/dc012719-54f2-44f8-8d46-95e9cfd98b04)
+Примем Cookie-файлы
 
 В конечном итоге увидим работающее приложение Django:
 
