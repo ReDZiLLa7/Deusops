@@ -64,7 +64,8 @@ vagrant init
 
 Теперь откроем только что созданный Vagrantfile через любой текстовый редактор, я буду использовать Sublime Text, и напишем в нем данный скрипт:
 
-![image](https://github.com/user-attachments/assets/f20e1910-45d6-41a8-a4a1-c10ea674486c)
+![image](https://github.com/user-attachments/assets/78a83fb7-40bc-4bf2-9719-69ea2b3c064a)
+![image](https://github.com/user-attachments/assets/7a399282-eaf8-4dca-b375-2056619852d3)
 
 ## 3. Поднятие серверов
 
