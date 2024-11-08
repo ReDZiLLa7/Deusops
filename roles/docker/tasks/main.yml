@@ -6,6 +6,7 @@
       - curl
       - git
       - lynx
+      - python3-pip
       - apt-transport-https
     state: latest
     update_cache: true
