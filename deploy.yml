@@ -20,3 +20,9 @@
         restart_policy: always
         ports:
           - "8000:8000"
+
+- hosts: web
+  become: yes
+
+  roles:
+    - nginx

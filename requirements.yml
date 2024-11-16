@@ -1,3 +1,6 @@
 ---
 - src: git+https://github.com/ReDZiLLa7/ansible-role-docker.git
   name: docker
+
+- src: git+https://github.com/ReDZiLLa7/ansible-role-nginx.git
+  name: nginx
