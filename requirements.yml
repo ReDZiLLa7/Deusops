@@ -1,0 +1,3 @@
+---
+- src: git+https://github.com/ReDZiLLa7/ansible-role-docker.git
+  name: docker

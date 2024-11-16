@@ -1,5 +1,4 @@
 ---
-
 - name: Install required system packages
   apt:
     pkg:
@@ -26,9 +25,3 @@
     name: "{{ docker_package }}"
     state: latest
     update_cache: true
-
-- name: Add current user to the docker group (optional)
-  user:
-    name: "{{ ansible_user }}"
-    groups: docker
-    append: yes
