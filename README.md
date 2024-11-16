@@ -80,3 +80,9 @@ curl -I http://localhost:8000/catalog/
 ```
 
 ![image](https://github.com/user-attachments/assets/5f4177c5-d722-45f4-9351-57dd73886806)
+
+Видим ответ:
+
+```
+HTTP/1.1 200 OK
+```
