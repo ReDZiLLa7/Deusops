@@ -1,0 +1,12 @@
+---
+- src: git+https://github.com/ReDZiLLa7/ansible-role-docker.git
+  scm: git
+  name: docker
+
+- src: git+https://github.com/ReDZiLLa7/ansible-role-nginx.git
+  scm: git
+  name: nginx
+
+- src: git+https://github.com/ReDZiLLa7/ansible-role-openvpn.git
+  scm: git
+  name: openvpn
